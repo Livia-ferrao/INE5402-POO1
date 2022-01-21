@@ -1,0 +1,5 @@
+idadeDias = int(input())
+anos = int(idadeDias/365)
+meses = int(idadeDias%365/30)
+dias = int(idadeDias%365%30)
+print("%d ano(s)\n%d mes(es)\n%d dia(s)" % (anos,meses,dias))

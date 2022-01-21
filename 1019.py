@@ -1,0 +1,5 @@
+seg = int(input())
+horas = int(seg/60/60)
+min = int(seg/60 - (horas*60))
+segundo = int(seg - ((horas*60*60) + (min*60)))
+print("%d:%d:%d" % (horas, min, segundo))
